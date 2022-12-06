@@ -1,0 +1,39 @@
+.outline {
+    width: 80%;
+    height: 70vh;
+    border: 1px solid black;
+    float: right;
+    display: flex;
+}
+
+.heading {
+    border: none;
+    width: 50%;
+    /* display: flex; */
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+h2 {
+    color: lightgreen;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.table {
+    width: 75%;
+    float: right;
+}
+
+table,
+td,
+th {
+    border: 1px solid black
+}
